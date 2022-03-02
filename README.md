@@ -1,21 +1,21 @@
 "# proyecto-python" 
-# Qué es Python?
+# ¿Qué es Python? 🐍
 Python es un lenguaje de programación de propósito general de alto nivel interpretado. Su filosofía de diseño enfatiza la legibilidad del código con el uso de una sangría significativa. Sus construcciones de lenguaje y su enfoque orientado a objetos tienen como objetivo ayudar a los programadores a escribir código claro y lógico para proyectos de pequeña y gran escala.  
 Python es de tipado dinámico y recolección de elementos no utilizados. Admite múltiples paradigmas de programación, incluida la programación estructurada (en particular, procedimental), orientada a objetos y funcional. A menudo se describe como un lenguaje de "baterías incluidas" debido a su completa biblioteca estándar.
-# Qué es una variable?
+# ¿Qué es una variable? 📄
 Una variable es donde se guarda (y se recupera) datos que se utilizan en un programa.
-## Nombrando una variable
+## Nombrando una variable 📑
 ```Python 
 variable = 
 #donde "variable" es el lugar donde se almacena una información e "=" nos indica cual es este valor
 ```
-## Asignando valores a una variable
+## Asignando valores a una variable 📑
 ```Python 
 variable = 10
 variable = "Hello world" 
 #donde el valor precedido del "=" es el valor asignado a nuestra variable
 ```
-## Operadores básicos
+## Operadores básicos 📑
 ```Python
 suma : +  
 resta : -  
@@ -25,7 +25,7 @@ división entera : //
 módulo : %  
 potenciación : **
 ```
-### Suma
+### Suma 🤖
 ```Python
 #creamos dos variables para poder realizar la operación  
 a = 20  
@@ -38,7 +38,7 @@ result = 24
 #presentamos un print para demostrar que nuestra operación sea correcta  
 print (result)
 ```
-### Resta
+### Resta 🤖
 ```Python
 #creamos dos variables para poder realizar la operación  
 a = 20  
@@ -51,7 +51,7 @@ result = 16
 #presentamos un print para demostrar que nuestra operación sea correcta  
 print (result)
 ```
-### Multiplicación
+### Multiplicación 🤖
 ```Python
 #creamos dos variables para poder realizar la operación  
 a = 20  
@@ -64,7 +64,7 @@ result = 80
 #presentamos un print para demostrar que nuestra operación sea correcta  
 print (result)
 ```
-### División
+### División 🤖
 ```Python
 #creamos dos variables para poder realizar la operación  
 a = 20  
@@ -77,7 +77,7 @@ result = 5
 #presentamos un print para demostrar que nuestra operación sea correcta  
 print (result)
 ```
-### Módulo
+### Módulo 🤖
 ```Python
 #creamos dos variables para poder realizar la operación  
 a = 20  
@@ -90,7 +90,7 @@ result = 20
 #presentamos un print para demostrar que nuestra operación sea correcta  
 print (result)
 ```
-### Potencia
+### Potencia 🤖
 ```Python
 #creamos dos variables para poder realizar la operación  
 a = 20  
@@ -103,8 +103,8 @@ result = 160000
 #presentamos un print para demostrar que nuestra operación sea correcta  
 print (result)
 ```
-# Tipos de datos en Python
-## Integer
+# Tipos de datos en Python 📄
+## Integer 📑
 Los números enteros son aquellos que no contienen decimales, pueden ser positivos o negativos además del cero. En Python, además de otros lenguajes de programación, se les conoce como de tipo int (interger, entero) o tipo long (de largo). La diferencia entre ambos es que el long permite almacenar números más grandes, por lo que también ocupa más espacio en un programa, así que es recomendable usarlo sólo en caso de ser necesario.
 
 ejemplo:  
@@ -113,7 +113,7 @@ x = 10
 y = 1000  
 z = - 10
 ```
-## Float
+## Float 📑
 Este tipo de dato se representa en lenguaje de programación como float (flotante). Puede, al igual que el entero, ser positivo o negativo, conteniendo uno o más decimales.
 
 ejemplo:  
@@ -130,14 +130,14 @@ x = 30e2
 y = 45e1  
 z = -50e4
 ```
-## String
+## String 📑
 Los cadenas (o strings) son un tipo de datos compuestos por secuencias de caracteres que representan texto. Estas cadenas de texto son de tipo str y se delimitan mediante el uso de comillas simples o dobles.
 
 ejemplo:  
 ```Python
 print("Hello world")
 ```
-## Casting en Python
+## Casting en Python 📑
 Hacer un cast o casting significa convertir un tipo de dato a otro. Anteriormente hemos visto tipos como los int, string o float. Pues bien, es posible convertir de un tipo a otro.
 
 Existen dos:  
@@ -159,7 +159,7 @@ print(type(a)) # <class 'float'>
 a = str(a)  
 print(type(a)) # <class 'str'>
 ```
-## List
+## List 📑
 Las listas (o ‘List’) en Python son un tipo de estructuras de datos muy flexible que guardan de forma ordenada un conjunto de datos que no tiene porque ser del mismo tipo. En otros lenguajes de programación una lista equivaldría a un array, aunque Python no exige que los elementos de la lista tenga que ser del mismo tipo (‘int’, ‘float’, ‘chr’, ‘str’, ‘bool’, ‘object’).
 
 ejemplo:  
@@ -169,7 +169,7 @@ print(lista)
 
 [salida]: [1, 3.1416, j]
 ```
-## Tuple
+## Tuple 📑
 Las tuplas se utilizan para almacenar varios elementos en una sola variable.  
 Tuple es uno de los 4 tipos de datos integrados en Python que se utilizan para almacenar colecciones de datos, los otros 3 son Lista, Conjunto y Diccionario, todos con diferentes calidades y usos.  
 Una tupla es una colección ordenada e inmutable.  
@@ -182,7 +182,7 @@ print(thistuple)
 
 [salida]: [apple, banana, cherry]
 ```
-## Dictionary
+## Dictionary 📑
 Los diccionarios se utilizan para almacenar valores de datos en pares clave:valor.  
 Un diccionario es una colección ordenada*, modificable y que no admite duplicados.
 
@@ -198,9 +198,8 @@ print(thisdict)
 
 [salida]: [Ford Mustang 1964]
 ```
-# Tomando decisiones
-
-## Sentencia if
+# Tomando decisiones 📄
+## Sentencia if 📑
 Python admite las condiciones lógicas habituales de las matemáticas:
 
 Es igual a: a == b  
@@ -232,7 +231,7 @@ si b > a:
 elif a == b:  
   print("a y b son iguales")
   ```
-## Ciclo For
+## Ciclo For 📑
 Un bucle for se usa para iterar sobre una secuencia (es decir, una lista, una tupla, un diccionario, un conjunto o una cadena).  
 Esto se parece menos a la palabra clave for en otros lenguajes de programación y funciona más como un método iterador como se encuentra en otros lenguajes de programación orientados a objetos.  
 Con el bucle for podemos ejecutar un conjunto de sentencias, una vez por cada elemento de una lista, tupla, conjunto, etc.
@@ -243,7 +242,7 @@ frutas = ["manzanas", "bananas", "cerezas"]
 for x in frutas:  
   print(x)
   ```
-## Ciclo While
+## Ciclo While 📑
 Con el bucle while podemos ejecutar un conjunto de declaraciones siempre que una condición sea verdadera.
 
 ejemplo:  
@@ -253,7 +252,7 @@ while i < 6:
   print(i)  
   i += 1
   ```
-## Break
+## Break 📑
 Con la instrucción break podemos detener el bucle incluso si la condición while es verdadera:
 
 ejemplo:  
@@ -265,7 +264,7 @@ while i < 6:
     break  
   i += 1  
 ```
-## Continue
+## Continue 📑
 Con la instrucción continue podemos detener la iteración actual y continuar con la siguiente:
 
 ejemplo:  
