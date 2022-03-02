@@ -5,12 +5,35 @@ Python es de tipado dinámico y recolección de elementos no utilizados. Admite 
 # Qué es una variable?
 Una variable es donde se guarda (y se recupera) datos que se utilizan en un programa.
 ## Nombrando una variable
-variable
+```Python 
+variable = 
+#donde "variable" es el lugar donde se almacena una informacion e "=" nos indica cual es este valor
+```
 ## Asignando valores a una variable
+```Python 
 variable = 10
+variable = "Hello world" 
+#donde el valor precedido del "=" es el valor asignado a nuestra variable
+```
 ## Operadores básicos
+suma : +  
+resta : -  
+multiplicación : *  
+división : /  
+división entera : //  
+módulo : %  
+potenciación : **
 ### Suma
-"+"	Realiza Adición entre los operandos 12 + 8 = 20
+```Python
+#creamos dos variables para poder realizar la operacion  
+a = 20  
+b = 4  
+#creamos una variable donde almacenaremos nuestra operacion  
+sum = 0
+#presentamos las dos variables acompañadas del operador suma  
+sum = (a + b)  
+#presentamos un print para demostrar que nuestra operacion sea correcta  
+print (sum)
 ### Resta
 "-"	Realiza Substracción entre los operandos 12 - 10 = 2
 ### Multiplicación
