@@ -29,23 +29,79 @@ potenciación : **
 a = 20  
 b = 4  
 #creamos una variable donde almacenaremos nuestra operacion  
-sum = 0
+result = 0  
 #presentamos las dos variables acompañadas del operador suma  
-sum = (a + b)  
+result = (a + b)  
+result = 24  
 #presentamos un print para demostrar que nuestra operacion sea correcta  
-print (sum)
+print (result)
+```
 ### Resta
-"-"	Realiza Substracción entre los operandos 12 - 10 = 2
+```Python
+#creamos dos variables para poder realizar la operacion  
+a = 20  
+b = 4  
+#creamos una variable donde almacenaremos nuestra operacion  
+result = 0  
+#presentamos las dos variables acompañadas del operador suma  
+result = (a - b)  
+result = 16  
+#presentamos un print para demostrar que nuestra operacion sea correcta  
+print (result)
+```
 ### Multiplicación
-"*" Realiza Multiplicación entre los operandos 12 * 4 = 48
+```Python
+#creamos dos variables para poder realizar la operacion  
+a = 20  
+b = 4  
+#creamos una variable donde almacenaremos nuestra operacion  
+result = 0  
+#presentamos las dos variables acompañadas del operador suma  
+result = (a * b)  
+result = 80    
+#presentamos un print para demostrar que nuestra operacion sea correcta  
+print (result)
+```
 ### División
-"/"	Realiza División entre los operandos 12 / 2 = 6
+```Python
+#creamos dos variables para poder realizar la operacion  
+a = 20  
+b = 4  
+#creamos una variable donde almacenaremos nuestra operacion  
+result = 0  
+#presentamos las dos variables acompañadas del operador suma  
+result = (a / b)  
+result = 5  
+#presentamos un print para demostrar que nuestra operacion sea correcta  
+print (result)
+```
 ### Módulo
-"%"	Realiza un módulo entre los operandos 16 % 3 = 1
+```Python
+#creamos dos variables para poder realizar la operacion  
+a = 20  
+b = 3  
+#creamos una variable donde almacenaremos nuestra operacion  
+result = 0  
+#presentamos las dos variables acompañadas del operador suma  
+result = (a % b)  
+result = 20  
+#presentamos un print para demostrar que nuestra operacion sea correcta  
+print (result)
+```
 ### Potencia
-"**"	Realiza la potencia de los operandos 12 ** 3 = 1728
+```Python
+#creamos dos variables para poder realizar la operacion  
+a = 20  
+b = 4  
+#creamos una variable donde almacenaremos nuestra operacion  
+result = 0  
+#presentamos las dos variables acompañadas del operador suma  
+result = (a ** b)  
+result = 160000  
+#presentamos un print para demostrar que nuestra operacion sea correcta  
+print (result)
+```
 # Tipos de datos en Python
-
 ## Integer
 Los números enteros son aquellos que no contienen decimales, pueden ser positivos o negativos además del cero. En Python, además de otros lenguajes de programación, se les conoce como de tipo int (interger, entero) o tipo long (de largo). La diferencia entre ambos es que el long permite almacenar números más grandes, por lo que también ocupa más espacio en un programa, así que es recomendable usarlo sólo en caso de ser necesario.
 
