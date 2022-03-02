@@ -164,7 +164,10 @@ Las listas (o ‘List’) en Python son un tipo de estructuras de datos muy flex
 
 ejemplo:  
 ```Python
-lista = [1, 3.1416, 'j']
+lista = [1, 3.1416, 'j']  
+print(lista)
+
+[salida]: [1, 3.1416, j]
 ```
 ## Tuple
 Las tuplas se utilizan para almacenar varios elementos en una sola variable.  
@@ -176,6 +179,8 @@ ejemplo:
 ```Python
 thistuple = ("apple", "banana", "cherry")  
 print(thistuple)
+
+[salida]: [apple, banana, cherry]
 ```
 ## Dictionary
 Los diccionarios se utilizan para almacenar valores de datos en pares clave:valor.  
@@ -190,6 +195,8 @@ thisdict = {
 }
 
 print(thisdict)
+
+[salida]: [Ford Mustang 1964]
 ```
 # Tomando decisiones
 
@@ -207,54 +214,66 @@ Estas condiciones se pueden usar de varias maneras, más comúnmente en "sentenc
 Una "sentencia if" se escribe utilizando la palabra clave if.
 
 ejemplo:  
+```Python
 a = 33  
 b = 200  
 si b > a:  
     print("b es mayor que a")
+```
 
 La palabra clave elif es la forma de Python de decir "si las condiciones anteriores no fueron ciertas, intente esta condición".
 
-ejemplo:  
+ejemplo: 
+```Python 
 a = 33  
 b = 33  
 si b > a:  
   print("b es mayor que a")  
 elif a == b:  
   print("a y b son iguales")
+  ```
 ## Ciclo For
 Un bucle for se usa para iterar sobre una secuencia (es decir, una lista, una tupla, un diccionario, un conjunto o una cadena).  
 Esto se parece menos a la palabra clave for en otros lenguajes de programación y funciona más como un método iterador como se encuentra en otros lenguajes de programación orientados a objetos.  
 Con el bucle for podemos ejecutar un conjunto de sentencias, una vez por cada elemento de una lista, tupla, conjunto, etc.
 
 ejemplo:  
+```Python
 frutas = ["manzanas", "bananas", "cerezas"]  
 for x in frutas:  
   print(x)
+  ```
 ## Ciclo While
 Con el bucle while podemos ejecutar un conjunto de declaraciones siempre que una condición sea verdadera.
 
 ejemplo:  
+```Python
 i = 1  
 while i < 6:  
   print(i)  
   i += 1
+  ```
 ## Break
 Con la instrucción break podemos detener el bucle incluso si la condición while es verdadera:
 
 ejemplo:  
+```Python
 i = 1  
 while i < 6:  
   print(i)  
   if i == 3:  
     break  
   i += 1  
+```
 ## Continue
 Con la instrucción continue podemos detener la iteración actual y continuar con la siguiente:
 
 ejemplo:  
+```Python
 i = 0  
 while i < 6:  
   i += 1  
   if i == 3:  
     continue  
   print(i)  
+```
