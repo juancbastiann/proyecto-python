@@ -1,4 +1,4 @@
-# ¿Qué es Python? 🐍
+# ¿Qué es Python? 🐍  
 Python es un lenguaje de programación de propósito general de alto nivel interpretado. Su filosofía de diseño enfatiza la legibilidad del código con el uso de una sangría significativa. Sus construcciones de lenguaje y su enfoque orientado a objetos tienen como objetivo ayudar a los programadores a escribir código claro y lógico para proyectos de pequeña y gran escala.  
 Python es de tipado dinámico y recolección de elementos no utilizados. Admite múltiples paradigmas de programación, incluida la programación estructurada (en particular, procedimental), orientada a objetos y funcional. A menudo se describe como un lenguaje de "baterías incluidas" debido a su completa biblioteca estándar.
 # ¿Qué es una variable? 📄
